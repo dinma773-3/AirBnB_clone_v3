@@ -154,6 +154,6 @@ EOF  all  create  destroy  help  quit  show  update
 No known bugs at this time. 
 
 ## Authors
-Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)
-God'sfavour Chukwudi - [Email] (godsfavourchukwudi21@gmail.com)
-calvin kudiwapfava - [Email] (calvinpatriot@gmail.com)
+God'sfavour Chukwudi - [Email](godsfavourchukwudi21@gmail.com)
+calvin kudiwapfava - [Email](calvinpatriot@gmail.com)
+

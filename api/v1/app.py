@@ -3,12 +3,17 @@
 """
 from models import storage
 from api.v1.views import app_views
+from flask import Flask, jsonify, make_response, render_template, url_for
+from flask_cors import CORS, cross_origin
 
 app = Flask(__name__)
 
 # flask server environmental setup
 host = os.getenv('HBNB_API_HOST', '0.0.0.0')
 port = os.getenv('HBNB_API_PORT', 5000)
+
+# create a CORS instance
+cors = CORS(app, resources={r'/*': {'origins': host}})
 
 app.register_blueprint(app_views)
 
